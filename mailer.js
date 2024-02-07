@@ -14,14 +14,14 @@ nodemailer = require('nodemailer');
 
 
 //mail object
-// mail = {
-//     from:'arshadad742@gmail.com',
-//     to:'mdabduls2511@gmail.com',
-//     subject: 'OTP',
-//     text:'Your OTP is signing is value' 
+mail = {
+    from:'arshadad742@gmail.com',
+    to:'mdabduls2511@gmail.com',
+    subject: 'OTP',
+    text:'Your OTP is signing is value' 
     
 
-// }
+}
 
 // send mail
 transporter.sendMail(mail, (err, data) => {
