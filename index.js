@@ -26,7 +26,7 @@ genotp(6)
 //     genotp()})
 
 
-// app.get('/',(req,res) => {
-//     res.send('index')
-// })
+app.get('/',(req,res) => {
+    res.send('index')
+})
 
