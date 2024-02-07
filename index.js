@@ -18,8 +18,8 @@ genotp(6)
 // OTP = otpgen.generate(6, {digits: true, lowerCaseAlphabets: false, upperCaseAlphabets: false, specialChars:false });
 // console.log(OTP)
 
-// app.get('/',(req,res) => { 
-// genotp()})
+app.get('/',(req,res) => { 
+genotp()})
 
 // app.get('/',(req,res) => { 
 //     res.send(genotp())
