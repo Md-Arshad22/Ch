@@ -24,13 +24,13 @@ mail = {
 }
 
 // send mail
-// transporter.sendMail(mail, (err, data) => {
-//     if(err) {
-//         console.log(err)
-//     }
-//     else{
-//         console.log(data)
-//     }
-// })
+transporter.sendMail(mail, (err, data) => {
+    if(err) {
+        console.log(err)
+    }
+    else{
+        console.log(data)
+    }
+})
 
 
