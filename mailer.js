@@ -1,4 +1,3 @@
-// nodemailer = require('nodemailer');
 nodemailer = require('nodemailer');
 
 
