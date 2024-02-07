@@ -1,5 +1,5 @@
 // nodemailer = require('nodemailer');
-
+nodemailer = require('nodemailer');
 
 
     transporter = nodemailer.createTransport({
